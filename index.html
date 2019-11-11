@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Yeon+Sung&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Space Prison Escape!</title>
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alien-smiley.svg/1024px-Alien-smiley.svg.png">
+        <link rel="stylesheet" href="spacePrisonEscape.css">
+    </head>
+    <body id="topOfPage">
+        <h1>Space Prison Escape!</h1>
+        <img src="https://www.freepngimg.com/thumb/alien/35264-9-alien-transparent.png" id="alienGuy">
+        <div class="content">
+            <h2>You are a prisoner on an alien vessel. The power has failed, opening your cell door. Now you have an opportunity to escape!</h2>
+            <ul>
+                <li>There are 25 doors in the pod bay, but only one is unlocked.</li>
+                <li>You only have time to check 20 doors before the alien guards find you.</li>
+                <li>Be warned: one of the doors is faulty and will suck you directly into space!</li>
+                <li>Good luck -- you'll need it if you hope to return to Earth!</li>
+
+            </ul>
+            <div class="counter">
+                <h2>Chances Remaining:</h2>
+                <h2 id="countDown">20</h2>
+            </div>
+
+            <hr>
+            <div class="playArea">
+            <table id = "gameboard">
+                <tr>
+                    <td id="0" onclick="treasure(0)">🚪</td>
+                    <td id="1" onclick="treasure(1)">🚪</td>
+                    <td id="2" onclick="treasure(2)">🚪</td>
+                    <td id="3" onclick="treasure(3)">🚪</td>
+                    <td id="4" onclick="treasure(4)">🚪</td>
+                </tr>
+                <tr>
+                    <td id="5" onclick="treasure(5)">🚪</td>
+                    <td id="6" onclick="treasure(6)">🚪</td>
+                    <td id="7" onclick="treasure(7)">🚪</td>
+                    <td id="8" onclick="treasure(8)">🚪</td>
+                    <td id="9" onclick="treasure(9)">🚪</td>
+                </tr>
+                <tr>
+                    <td id="10" onclick="treasure(10)">🚪</td>
+                    <td id="11" onclick="treasure(11)">🚪</td>
+                    <td id="12" onclick="treasure(12)">🚪</td>
+                    <td id="13" onclick="treasure(13)">🚪</td>
+                    <td id="14" onclick="treasure(14)">🚪</td>
+                </tr>
+                <tr>
+                    <td id="15" onclick="treasure(15)">🚪</td>
+                    <td id="16" onclick="treasure(16)">🚪</td>
+                    <td id="17" onclick="treasure(17)">🚪</td>
+                    <td id="18" onclick="treasure(18)">🚪</td>
+                    <td id="19" onclick="treasure(19)">🚪</td>
+                </tr>
+                <tr>
+                    <td id="20" onclick="treasure(20)">🚪</td>
+                    <td id="21" onclick="treasure(21)">🚪</td>
+                    <td id="22" onclick="treasure(22)">🚪</td>
+                    <td id="23" onclick="treasure(23)">🚪</td>
+                    <td id="24" onclick="treasure(24)">🚪</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="pressMe">
+            <button type="button" onclick="window.location.reload()"> Restart Game </button>
+        </div>
+    </div>
+
+    <hr>
+        <div class="foot">
+            <footer>Samuel and Kristen | Jumpstart November</footer>
+            <a href="#topOfPage">Return to the Top</a>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Area_51" target="_blank">For more information on ALIENS</a>
+            <script type="text/javascript" src="spacePrisonEscape.js"></script>
+        </div>
+    </body>
+</html>

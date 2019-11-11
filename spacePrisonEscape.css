@@ -1,0 +1,106 @@
+*{
+
+}
+
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-shadow: -3px 3px 3px rgba(150, 255, 245, 1);
+    background: url(https://c.pxhere.com/photos/29/cb/planet_spaceship_electronics_space_space_suit_astronaut_solar_system_space_travel-744118.jpg!d) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#alienGuy{
+    display: block;
+    margin: auto;
+    height: 500px;
+}
+h1{
+    display: block;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+}
+
+h1,
+.content{
+    border: 3px solid rgba(150, 150, 150, 0.8);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 5%;
+    font-weight: bold;
+    background-color: rgba(100, 162, 157, 0.6);
+}
+
+.counter{
+    border: 5px solid black;
+    text-shadow: none;
+    background: rgba(230, 50, 50, 0.6);
+    text-align: center;
+    margin: 0px 30%;
+}
+
+.playArea {
+    display: flex;
+    justify-content: center;
+}
+
+#gameboard {
+    border: 5px solid black;
+    height: 360px;
+    width: 600px;
+    background-image: url(https://live.staticflickr.com/7401/15796702194_71d898a192_b.jpg);
+    background-size: 600px 360px;
+}
+
+/* table {
+    display:block;
+    align-content: stretch;
+    justify-content: space-around;
+} */
+
+
+
+
+
+td {
+    text-shadow: none;
+    text-align: center;
+    height: 64px;
+    width: 120px;
+    font-size: 36px;
+}
+
+td:hover {
+    background-color: black;
+    border: 1.5px solid rgba(150, 150, 150, 0.8);
+}
+
+.pressMe{
+    text-align: center;
+}
+button {
+    background-color: #4abcc1;
+    font-size: 20px;
+}
+
+button:hover{
+    font-size: 24px;
+    background-color: #4efb9b;
+}
+
+.foot {
+    text-align: center;
+    text-shadow: none;
+    background: rgba(230, 50, 50, 0.6);
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 2px;
+}
